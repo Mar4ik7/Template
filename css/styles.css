@@ -348,7 +348,9 @@ body {
     height: 80%;
     width: 100px;
     background-color: #808080;
-    border: 4px solid #000000; }
+    border: 4px solid #000000;
+    margin-right: auto;
+    margin-left: auto; }
 
   #blocks {
     height: 60%;
@@ -429,40 +431,26 @@ body {
     width: 50%;
     height: 85%;
     background-color: #ff4500;
-    display: flex; }
-
-  #test1 {
-    width: 15%;
-    height: 5%;
     display: flex;
-    align-items: flex-end; }
+    flex-direction: column; }
 
-  #square1 {
+  #first_squares {
     width: 100%;
     height: 100%;
-    background-color: #0000ff; }
-
-  #test1 {
-    width: 15%;
-    height: 5%;
     display: flex;
-    align-items: flex-end; }
+    justify-content: space-between; }
 
-  #square2 {
+  .blue_squares {
+    height: 10%;
     width: 15%;
-    height: 5%;
-    background-color: #0000ff;
-    margin-left: auto; }
-
-  #square3 {
-    width: 15%;
-    height: 5%;
     background-color: #0000ff; }
 
-  #square4 {
-    width: 15%;
-    height: 5%;
-    background-color: #0000ff; }
+  #second_squares {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between; }
 
   #blue_block {
     width: 50%;
@@ -576,7 +564,8 @@ body {
     width: 100%;
     background-color: #960606;
     display: flex;
-    justify-content: center; }
+    flex-direction: column;
+    align-items: center; }
 
   #first_grey {
     height: 30%;
@@ -584,51 +573,45 @@ body {
     background-color: #808080;
     margin-top: 27px; }
 
-  #square6 {
+  .black_square {
     width: 5%;
     height: 15%;
     background-color: #000000;
-    margin-top: 3px;
     margin-left: auto;
-    margin-right: 3px; }
+    margin-right: 1px;
+    margin-top: 2px; }
 
-  #try34 {
+  .example {
     height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: column; }
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px; }
 
-  #main {
-    height: 100%;
-    height: 100%;
+  .lwhite_block {
+    height: 60%;
+    width: 15%;
+    background-color: #ffffff; }
+
+  .grow_block {
+    height: 60%;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: -10px; }
-
-  #first_white {
-    height: 70%;
-    width: 15%;
-    background-color: #ffffff; }
-
-  #second_white {
-    height: 70%;
-    width: 15%;
-    background-color: #ffffff; }
-
-  #third_white {
-    height: 70%;
-    width: 30%;
+    flex-grow: 0.7;
     background-color: #ffffff; }
 
   hr {
-    width: 100%; }
+    width: 80%; }
 
   #second_grey {
     height: 30%;
     width: 80%;
-    background-color: #808080;
-    margin-top: 27px; }
+    background-color: #808080; }
+
+  .white_block {
+    height: 60%;
+    width: 10%;
+    background-color: #ffffff; }
 
   #fifth_block {
     height: 90%;
