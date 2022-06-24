@@ -719,7 +719,6 @@ body {
     width: 100px;
     background-color: $grey-color;
     border: 4px solid $black-color;
-    margin-left: 3px;
     margin-top: 3px;
   }
 
@@ -746,5 +745,306 @@ body {
     height: 50%;
     width: 60%;
     background-color: $grey-color;
+  }
+  #middle {
+      min-height: 1000px;
+      width: 100%;
+      background-color: #808080;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      gap: 10px;
+  }
+  #first_block {
+      height: 100%;
+      width: 100%;
+      background-color: #d60d0d;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      margin-top: 15px;
+  }
+  #try {
+    width: 50%;
+    height: 5%;
+    display: flex;
+    margin: 0;
+    align-items: start;
+    justify-content: center;
+  }
+  #line_1 {
+    width: 100%;
+    height: 100%;
+    background-color: $black-color;
+  }
+  .try2 {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+  #daughter1 {
+      height: 100%;
+      width: 100%;
+      background-color: #960606;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  #grey_block {
+    height: 80%;
+    width: 80%;
+    background-color: $grey-color;
+    display: flex;
+    align-items: flex-end;
+  }
+  #orange_block {
+    width: 50%;
+    height: 85%;
+    background-color: $orange-color2;
+    display: flex;
+    flex-direction: column;
+  }
+  #first_squares {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .blue_squares {
+    height: 30%;
+    width: 10%;
+    background-color: $blue-color;
+  }
+  #second_squares {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  #blue_block {
+    width: 50%;
+    height: 75%;
+    background-color: $bright-blue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  #inside {
+    width: 80%;
+    height: 70%;
+    background-color: $dark-blue;
+  }
+  #second_block {
+      height: 100%;
+      width: 100%;
+      background-color: #d60d0d;
+      display: flex;
+      align-items: flex-end;
+      flex-wrap: wrap;
+  }
+
+  .line_2 {
+    background-color: $black-color;
+    height: 5%;
+    width: 35%;
+    margin: 0;
+  }
+  #daughter2 {
+    height: 100%;
+    width: 100%;
+    background-color: $dark-red;
+    display: flex;
+    justify-content: center;
+  }
+  #grey_block2 {
+    height: 50%;
+    width: 80%;
+    background-color: $grey-color;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #blue_block2 {
+    height: 50%;
+    width: 80%;
+    background-color: $blue-color;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  #aqua_block {
+    height: 70%;
+    width: 90%;
+    background-color: $aqua-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .small {
+    height: 30%;
+    width: 30%;
+    background-color: $dark-blue;
+  }
+  #third_block {
+    height: 100%;
+    width: 100%;
+    background-color: $light-red;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  #daughter3 {
+    height: 100%;
+    width: 100%;
+    background-color: $dark-red;
+    display: flex;
+    justify-content: center;
+  }
+  #bg_grey {
+    height: 30%;
+    width: 80%;
+    background-color: $grey-color;
+    margin-top: 27px;
+  }
+  #square5 {
+    width: 5%;
+    height: 15%;
+    background-color: $black-color;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: 3px;
+  }
+  #yellow_block {
+    height: 55%;
+    width: 70%;
+    background-color: $gold-color;
+    margin: 0 auto;
+  }
+  #fourth_block {
+    height: 100%;
+    width: 100%;
+    background-color: $light-red;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  #daughter4 {
+    height: 100%;
+    width: 100%;
+    background-color: #960606;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #first_grey {
+    height: 30%;
+    width: 80%;
+    background-color: $grey-color;
+    margin-top: 27px;
+  }
+
+  .black_square {
+    width: 5%;
+    height: 15%;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: 1px;
+    margin-top: 2px;
+  }
+  .example {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+  .lwhite_block {
+    height: 60%;
+    width: 15%;
+    background-color: $white-color;
+  }
+  .grow_block {
+    height: 60%;
+    display: flex;
+    flex-grow: 0.7;
+    background-color: $white-color;
+  }
+  hr {
+    width: 80%;
+  }
+  #second_grey {
+    height: 30%;
+    width: 80%;
+    background-color: $grey-color;
+  }
+  .white_block {
+    height: 60%;
+    width: 10%;
+    background-color: $white-color;
+  }
+  #fifth_block {
+    height: 100%;
+    width: 100%;
+    background-color: $light-red;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+  #line_3 {
+    background-color: $black-color;
+    height: 5%;
+    width: 90%;
+    margin: 0;
+  }
+  #daughter5 {
+    height: 100%;
+    width: 100%;
+    background-color: $dark-red;
+    display: flex;
+    justify-content: center;
+  }
+  #grey_block3 {
+    height: 50%;
+    width: 80%;
+    background-color: $grey-color;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+  }
+  #yellow_line {
+    height: 15%;
+    width: 100%;
+    background-color: $gold-color;
+  }
+  #basement {
+    min-height: 1000px;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .brown {
+    height: 80%;
+    width: 100%;
+    background-color: $brown-color;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .grey_line {
+    width: 90%;
+    height: 10%;
+    background-color: $light-grey;
+    margin-top: 10px;
   }
 }
