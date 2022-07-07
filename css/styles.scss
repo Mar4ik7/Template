@@ -33,7 +33,7 @@ body {
   }
 
   #logo {
-    height: 80%;
+    height: 75px;
     width: 100px;
     background-color: $grey-color;
     border: 4px solid $black-color;
@@ -47,7 +47,7 @@ body {
     justify-content: center;
   }
 
-  .orange_blocks {
+  .outside_boxes {
     height: 100%;
     width: 100%;
     background-color: $orange-color;
@@ -56,7 +56,7 @@ body {
     justify-content: center;
   }
 
-  .grey_blocks {
+  .inside_boxes {
     height: 50%;
     width: 60%;
     background-color: $grey-color;
@@ -70,7 +70,7 @@ body {
     align-items: center;
     justify-content: space-around;
   }
-  #first_block {
+  .card {
     height: 90%;
     width: 19%;
     background-color: $light-red;
@@ -78,7 +78,7 @@ body {
     flex-wrap: wrap;
     align-items: flex-end;
   }
-  #try_line {
+  #main_line {
     width: 50%;
     height: 5%;
     display: flex;
@@ -86,12 +86,12 @@ body {
     align-items: start;
     justify-content: center;
   }
-  #line_1 {
+  #first_line {
     width: 100%;
     height: 100%;
     background-color: $black-color;
   }
-  .inside_dark_red {
+  .card_inside {
     height: 80%;
     width: 100%;
     display: flex;
@@ -105,14 +105,14 @@ body {
     align-items: center;
     justify-content: center;
   }
-  #grey_block {
+  #head_bg {
     height: 80%;
     width: 80%;
     background-color: $grey-color;
     display: flex;
     align-items: flex-end;
   }
-  #orange_block {
+  #main_left_block {
     width: 50%;
     height: 85%;
     background-color: $orange-color2;
@@ -125,7 +125,7 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  .blue_squares {
+  .corner_squares {
     height: 10%;
     width: 15%;
     background-color: $blue-color;
@@ -137,7 +137,7 @@ body {
     align-items: flex-end;
     justify-content: space-between;
   }
-  #blue_block {
+  #main_right_block {
     width: 50%;
     height: 75%;
     background-color: $bright-blue;
@@ -150,16 +150,7 @@ body {
     height: 70%;
     background-color: $dark-blue;
   }
-  #second_block {
-    height: 90%;
-    width: 19%;
-    background-color: $light-red;
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
-  }
-
-  .line_2 {
+  .second_line {
     background-color: $black-color;
     height: 5%;
     width: 35%;
@@ -172,7 +163,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  #grey_block2 {
+  #box_a {
     height: 50%;
     width: 80%;
     background-color: $grey-color;
@@ -181,7 +172,7 @@ body {
     align-items: center;
     justify-content: flex-start;
   }
-  #blue_block2 {
+  #box_b {
     height: 50%;
     width: 80%;
     background-color: $blue-color;
@@ -189,7 +180,7 @@ body {
     align-items: center;
     justify-content: flex-start;
   }
-  #aqua_block {
+  #box_c {
     height: 70%;
     width: 90%;
     background-color: $aqua-color;
@@ -202,14 +193,7 @@ body {
     width: 30%;
     background-color: $dark-blue;
   }
-  #third_block {
-    height: 90%;
-    width: 19%;
-    background-color: $light-red;
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
-  }
+
   #daughter3 {
     height: 100%;
     width: 100%;
@@ -217,7 +201,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  #bg_grey {
+  #outside_center_block {
     height: 30%;
     width: 80%;
     background-color: $grey-color;
@@ -231,39 +215,32 @@ body {
     margin-left: auto;
     margin-right: 3px;
   }
-  #yellow_block {
+  #inside_center_block {
     height: 55%;
     width: 70%;
     background-color: $gold-color;
     margin: 0 auto;
   }
-  #fourth_block {
-    height: 90%;
-    width: 19%;
-    background-color: $light-red;
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
-  }
+
   #daughter4 {
     height: 100%;
     width: 100%;
-    background-color: #960606;
+    background-color: $dark-red;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #first_grey {
+  #first_box {
     height: 30%;
     width: 80%;
     background-color: $grey-color;
     margin-top: 27px;
   }
 
-  .black_square {
+  .right_square {
     width: 5%;
     height: 15%;
-    background-color: #000000;
+    background-color: $black-color;
     margin-left: auto;
     margin-right: 1px;
     margin-top: 2px;
@@ -276,7 +253,7 @@ body {
     justify-content: center;
     gap: 10px;
   }
-  .lwhite_block {
+  .up_block {
     height: 60%;
     width: 15%;
     background-color: $white-color;
@@ -290,26 +267,18 @@ body {
   hr {
     width: 80%;
   }
-  #second_grey {
+  #second_box {
     height: 30%;
     width: 80%;
     background-color: $grey-color;
   }
-  .white_block {
+  .down_block {
     height: 60%;
     width: 10%;
     background-color: $white-color;
   }
-  #fifth_block {
-    height: 90%;
-    width: 19%;
-    background-color: $light-red;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  #line_3 {
+
+  #third_line {
     background-color: $black-color;
     height: 5%;
     width: 90%;
@@ -322,7 +291,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  #grey_block3 {
+  #main_fifth_block {
     height: 50%;
     width: 80%;
     background-color: $grey-color;
@@ -330,7 +299,7 @@ body {
     display: flex;
     align-items: center;
   }
-  #yellow_line {
+  #center_line {
     height: 15%;
     width: 100%;
     background-color: $gold-color;
@@ -343,14 +312,14 @@ body {
     align-items: center;
     justify-content: space-around;
   }
-  .brown {
+  .main_bg {
     height: 80%;
     width: 11%;
     background-color: $brown-color;
     display: flex;
     justify-content: center;
   }
-  .grey_line {
+  .fourt_line {
     width: 90%;
     height: 10%;
     background-color: $light-grey;
@@ -361,7 +330,6 @@ body {
 @media (max-width: 1023px) {
   #header {
     background-color: $red-color;
-    height: 15vh;
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -372,16 +340,15 @@ body {
   }
 
   #logo {
-    height: 80%;
+    height: 75px;
     width: 100px;
     background-color: $grey-color;
     border: 4px solid $black-color;
-    margin-right: auto;
-    margin-left: auto;
+    margin-bottom: 1px;
   }
 
   #blocks {
-    height: 60%;
+    min-height: 60px;
     width: 95%;
     gap: 15px;
     display: flex;
@@ -392,17 +359,16 @@ body {
     margin-bottom: 5px;
   }
 
-  .orange_blocks {
-    height: 100%;
+  .outside_boxes {
     width: calc(100% / 3);
-    background-color: $orange-color;
+    background-color: #ffa500;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 2px;
   }
 
-  .grey_blocks {
+  .inside_boxes {
     height: 50%;
     width: 60%;
     background-color: grey;
@@ -415,7 +381,7 @@ body {
     align-items: center;
     justify-content: space-around;
   }
-  #first_block {
+  .card {
     height: 90%;
     width: 19%;
     background-color: $light-red;
@@ -423,7 +389,7 @@ body {
     flex-wrap: wrap;
     align-items: flex-end;
   }
-  #try_line {
+  #main_line {
     width: 50%;
     height: 5%;
     display: flex;
@@ -431,12 +397,12 @@ body {
     align-items: start;
     justify-content: center;
   }
-  #line_1 {
+  #first_line {
     width: 100%;
     height: 100%;
     background-color: $black-color;
   }
-  .inside_dark_red {
+  .card_inside {
     height: 80%;
     width: 100%;
     display: flex;
@@ -450,14 +416,14 @@ body {
     align-items: center;
     justify-content: center;
   }
-  #grey_block {
+  #head_bg {
     height: 80%;
     width: 80%;
     background-color: $grey-color;
     display: flex;
     align-items: flex-end;
   }
-  #orange_block {
+  #main_left_block {
     width: 50%;
     height: 85%;
     background-color: $orange-color2;
@@ -470,7 +436,7 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  .blue_squares {
+  .corner_squares {
     height: 10%;
     width: 15%;
     background-color: $blue-color;
@@ -482,7 +448,7 @@ body {
     align-items: flex-end;
     justify-content: space-between;
   }
-  #blue_block {
+  #main_right_block {
     width: 50%;
     height: 75%;
     background-color: $bright-blue;
@@ -495,16 +461,8 @@ body {
     height: 70%;
     background-color: $dark-blue;
   }
-  #second_block {
-    height: 90%;
-    width: 19%;
-    background-color: $light-red;
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
-  }
 
-  .line_2 {
+  .second_line {
     background-color: $black-color;
     height: 5%;
     width: 35%;
@@ -517,7 +475,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  #grey_block2 {
+  #box_a {
     height: 50%;
     width: 80%;
     background-color: $grey-color;
@@ -526,7 +484,7 @@ body {
     align-items: center;
     justify-content: flex-start;
   }
-  #blue_block2 {
+  #box_b {
     height: 50%;
     width: 80%;
     background-color: $blue-color;
@@ -534,7 +492,7 @@ body {
     align-items: center;
     justify-content: flex-start;
   }
-  #aqua_block {
+  #box_c {
     height: 70%;
     width: 90%;
     background-color: $aqua-color;
@@ -547,14 +505,7 @@ body {
     width: 30%;
     background-color: $dark-blue;
   }
-  #third_block {
-    height: 90%;
-    width: 19%;
-    background-color: $light-red;
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
-  }
+
   #daughter3 {
     height: 100%;
     width: 100%;
@@ -562,7 +513,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  #bg_grey {
+  #outside_center_block {
     height: 30%;
     width: 80%;
     background-color: $grey-color;
@@ -576,39 +527,32 @@ body {
     margin-left: auto;
     margin-right: 3px;
   }
-  #yellow_block {
+  #inside_center_block {
     height: 55%;
     width: 70%;
     background-color: $gold-color;
     margin: 0 auto;
   }
-  #fourth_block {
-    height: 90%;
-    width: 19%;
-    background-color: $light-red;
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
-  }
+
   #daughter4 {
     height: 100%;
     width: 100%;
-    background-color: #960606;
+    background-color: $dark-red;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #first_grey {
+  #first_box {
     height: 30%;
     width: 80%;
     background-color: $grey-color;
     margin-top: 27px;
   }
 
-  .black_square {
+  .right_square {
     width: 5%;
     height: 15%;
-    background-color: #000000;
+    background-color: $black-color;
     margin-left: auto;
     margin-right: 1px;
     margin-top: 2px;
@@ -621,7 +565,7 @@ body {
     justify-content: center;
     gap: 10px;
   }
-  .lwhite_block {
+  .up_block {
     height: 60%;
     width: 15%;
     background-color: $white-color;
@@ -635,26 +579,18 @@ body {
   hr {
     width: 80%;
   }
-  #second_grey {
+  #second_box {
     height: 30%;
     width: 80%;
     background-color: $grey-color;
   }
-  .white_block {
+  .down_block {
     height: 60%;
     width: 10%;
     background-color: $white-color;
   }
-  #fifth_block {
-    height: 90%;
-    width: 19%;
-    background-color: $light-red;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  #line_3 {
+
+  #third_line {
     background-color: $black-color;
     height: 5%;
     width: 90%;
@@ -667,7 +603,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  #grey_block3 {
+  #main_fifth_block {
     height: 50%;
     width: 80%;
     background-color: $grey-color;
@@ -675,7 +611,7 @@ body {
     display: flex;
     align-items: center;
   }
-  #yellow_line {
+  #center_line {
     height: 15%;
     width: 100%;
     background-color: $gold-color;
@@ -688,14 +624,14 @@ body {
     align-items: center;
     justify-content: space-around;
   }
-  .brown {
+  .main_bg {
     height: 80%;
     width: 11%;
     background-color: $brown-color;
     display: flex;
     justify-content: center;
   }
-  .grey_line {
+  .fourt_line {
     width: 90%;
     height: 10%;
     background-color: $light-grey;
@@ -706,7 +642,6 @@ body {
 @media (max-width: 767px) {
   #header {
     background-color: $red-color;
-    height: 15vh;
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -715,33 +650,33 @@ body {
   }
 
   #logo {
-    height: 60%;
+    height: 75px;
     width: 100px;
     background-color: $grey-color;
     border: 4px solid $black-color;
     margin-top: 3px;
+    margin-left: 3px;
   }
 
   #blocks {
-    height: 60%;
+    min-height: 70px;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 1px;
-    margin: 0;
   }
 
-  .orange_blocks {
-    height: calc(100% / 3);
-    width: 100%;
+  .outside_boxes {
     background-color: $orange-color;
+    width: 100%;
+    background-color: #ffa500;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .grey_blocks {
+  .inside_boxes {
     height: 50%;
     width: 60%;
     background-color: $grey-color;
@@ -749,23 +684,23 @@ body {
   #middle {
     min-height: 1000px;
     width: 100%;
-    background-color: #808080;
+    background-color: $grey-color;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
     gap: 10px;
   }
-  #first_block {
+  .card {
     height: 100%;
     width: 100%;
-    background-color: #d60d0d;
+    background-color: $light-red;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     margin-top: 15px;
   }
-  #try_line {
+  #main_line {
     width: 50%;
     height: 5%;
     display: flex;
@@ -773,12 +708,12 @@ body {
     align-items: start;
     justify-content: center;
   }
-  #line_1 {
+  #first_line {
     width: 100%;
     height: 100%;
     background-color: $black-color;
   }
-  .inside_dark_red {
+  .card_inside {
     height: 80%;
     width: 100%;
     display: flex;
@@ -787,19 +722,19 @@ body {
   #daughter1 {
     height: 100%;
     width: 100%;
-    background-color: #960606;
+    background-color: $dark-red;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  #grey_block {
+  #head_bg {
     height: 80%;
     width: 80%;
     background-color: $grey-color;
     display: flex;
     align-items: flex-end;
   }
-  #orange_block {
+  #main_left_block {
     width: 50%;
     height: 85%;
     background-color: $orange-color2;
@@ -812,7 +747,7 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  .blue_squares {
+  .corner_squares {
     height: 30%;
     width: 10%;
     background-color: $blue-color;
@@ -824,7 +759,7 @@ body {
     align-items: flex-end;
     justify-content: space-between;
   }
-  #blue_block {
+  #main_right_block {
     width: 50%;
     height: 75%;
     background-color: $bright-blue;
@@ -837,16 +772,8 @@ body {
     height: 70%;
     background-color: $dark-blue;
   }
-  #second_block {
-    height: 100%;
-    width: 100%;
-    background-color: #d60d0d;
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
-  }
-
-  .line_2 {
+  
+  .second_line {
     background-color: $black-color;
     height: 5%;
     width: 35%;
@@ -859,7 +786,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  #grey_block2 {
+  #box_a {
     height: 50%;
     width: 80%;
     background-color: $grey-color;
@@ -868,7 +795,7 @@ body {
     align-items: center;
     justify-content: flex-start;
   }
-  #blue_block2 {
+  #box_b {
     height: 50%;
     width: 80%;
     background-color: $blue-color;
@@ -876,7 +803,7 @@ body {
     align-items: center;
     justify-content: flex-start;
   }
-  #aqua_block {
+  #box_c {
     height: 70%;
     width: 90%;
     background-color: $aqua-color;
@@ -889,14 +816,7 @@ body {
     width: 30%;
     background-color: $dark-blue;
   }
-  #third_block {
-    height: 100%;
-    width: 100%;
-    background-color: $light-red;
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
-  }
+  
   #daughter3 {
     height: 100%;
     width: 100%;
@@ -904,7 +824,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  #bg_grey {
+  #outside_center_block {
     height: 30%;
     width: 80%;
     background-color: $grey-color;
@@ -918,40 +838,32 @@ body {
     margin-left: auto;
     margin-right: 3px;
   }
-  #yellow_block {
+  #inside_center_block {
     height: 55%;
     width: 70%;
     background-color: $gold-color;
     margin: 0 auto;
   }
-  #fourth_block {
-    height: 100%;
-    width: 100%;
-    background-color: $light-red;
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-  }
+  
   #daughter4 {
     height: 100%;
     width: 100%;
-    background-color: #960606;
+    background-color: $dark-red;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #first_grey {
+  #first_box {
     height: 30%;
     width: 80%;
     background-color: $grey-color;
     margin-top: 27px;
   }
 
-  .black_square {
+  .right_square {
     width: 5%;
     height: 15%;
-    background-color: #000000;
+    background-color: $black-color;
     margin-left: auto;
     margin-right: 1px;
     margin-top: 2px;
@@ -964,7 +876,7 @@ body {
     justify-content: center;
     gap: 10px;
   }
-  .lwhite_block {
+  .up_block {
     height: 60%;
     width: 15%;
     background-color: $white-color;
@@ -978,27 +890,18 @@ body {
   hr {
     width: 80%;
   }
-  #second_grey {
+  #second_box {
     height: 30%;
     width: 80%;
     background-color: $grey-color;
   }
-  .white_block {
+  .down_block {
     height: 60%;
     width: 10%;
     background-color: $white-color;
   }
-  #fifth_block {
-    height: 100%;
-    width: 100%;
-    background-color: $light-red;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 15px;
-  }
-  #line_3 {
+  
+  #third_line {
     background-color: $black-color;
     height: 5%;
     width: 90%;
@@ -1011,7 +914,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  #grey_block3 {
+  #main_fifth_block {
     height: 50%;
     width: 80%;
     background-color: $grey-color;
@@ -1019,7 +922,7 @@ body {
     display: flex;
     align-items: center;
   }
-  #yellow_line {
+  #center_line {
     height: 15%;
     width: 100%;
     background-color: $gold-color;
@@ -1027,13 +930,13 @@ body {
   #basement {
     min-height: 1000px;
     width: 100%;
-    background-color: #000000;
+    background-color: $black-color;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
   }
-  .brown {
+  .main_bg {
     height: 80%;
     width: 100%;
     background-color: $brown-color;
@@ -1041,7 +944,7 @@ body {
     justify-content: center;
     margin-top: 15px;
   }
-  .grey_line {
+  .fourth_line {
     width: 90%;
     height: 10%;
     background-color: $light-grey;
