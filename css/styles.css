@@ -8,7 +8,7 @@ body {
 
 @media (min-width: 1325px) {
   #header {
-    background-color: #ff0000;
+    background-color: red;
     height: 15vh;
     width: 100%;
     display: flex;
